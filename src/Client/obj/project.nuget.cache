@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lUA4s4Y7hKR8DG+pvigmHIIqpKnyOi3L+RkHW403LcG+rbgebyiDqxv9fi7ZIBBeCmYSatdASQoDK1sh+5oDUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Poostoi\\RiderProjects\\simple\\src\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Poostoi\\.nuget\\packages\\identitymodel\\6.2.0\\identitymodel.6.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
