@@ -1,6 +1,6 @@
 ﻿namespace Api.Services;
 
-public class IBaseService
+public interface IBaseService
 {
-    
+    string Print(string row);
 }

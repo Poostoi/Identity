@@ -1,8 +1,13 @@
 using System.Security.Claims;
+using Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
 // Add services to the container.
+builder.Services.AddTransient<IBaseService, BuildService>();
+builder.Services.AddTransient<IBaseService, GameService>();
+
 builder.Services.AddAuthentication()
     .AddJwtBearer(options =>
     {
@@ -14,18 +19,18 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("ApiScope", policy =>
     {
         policy.RequireAuthenticatedUser();
-        policy.RequireClaim("scope", "api2");
+        policy.RequireClaim("scope", "api1");
     });
 });
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-
+app.UseCors();
 app.UseHttpsRedirection();
 
 app.MapGet("identity", (ClaimsPrincipal user) => user.Claims.Select(c => new { c.Type, c.Value }))
     .RequireAuthorization("ApiScope");
 
+app.MapControllers();
 app.Run();
 
 

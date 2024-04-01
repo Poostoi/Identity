@@ -46,3 +46,7 @@ C:\Users\Poostoi\RiderProjects\simple\src\IdentityServer\obj\Debug\net8.0\Identi
 C:\Users\Poostoi\RiderProjects\simple\src\IdentityServer\obj\Debug\net8.0\IdentityServer.genruntimeconfig.cache
 C:\Users\Poostoi\RiderProjects\simple\src\IdentityServer\obj\Debug\net8.0\ref\IdentityServer.dll
 C:\Users\Poostoi\RiderProjects\simple\src\IdentityServer\bin\Debug\net8.0\keys\is-signing-key-B2CB84EEFD6EE879431777C7A1F92AFD.json
+C:\Users\Poostoi\RiderProjects\simple\src\IdentityServer\obj\Debug\net8.0\IdentityServer.sourcelink.json
+C:\Users\Poostoi\RiderProjects\simple\src\IdentityServer\bin\Debug\net8.0\IdentityServer.staticwebassets.runtime.json
+C:\Users\Poostoi\RiderProjects\simple\src\IdentityServer\obj\Debug\net8.0\IdentityServer.RazorAssemblyInfo.cache
+C:\Users\Poostoi\RiderProjects\simple\src\IdentityServer\obj\Debug\net8.0\IdentityServer.RazorAssemblyInfo.cs

@@ -33,3 +33,4 @@ C:\Users\Poostoi\RiderProjects\simple\src\Api\obj\Debug\net8.0\refint\Api.dll
 C:\Users\Poostoi\RiderProjects\simple\src\Api\obj\Debug\net8.0\Api.pdb
 C:\Users\Poostoi\RiderProjects\simple\src\Api\obj\Debug\net8.0\Api.genruntimeconfig.cache
 C:\Users\Poostoi\RiderProjects\simple\src\Api\obj\Debug\net8.0\ref\Api.dll
+C:\Users\Poostoi\RiderProjects\simple\src\Api\obj\Debug\net8.0\Api.sourcelink.json

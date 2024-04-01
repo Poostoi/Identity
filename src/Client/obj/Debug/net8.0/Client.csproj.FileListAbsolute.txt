@@ -15,3 +15,4 @@ C:\Users\Poostoi\RiderProjects\simple\src\Client\obj\Debug\net8.0\refint\Client.
 C:\Users\Poostoi\RiderProjects\simple\src\Client\obj\Debug\net8.0\Client.pdb
 C:\Users\Poostoi\RiderProjects\simple\src\Client\obj\Debug\net8.0\Client.genruntimeconfig.cache
 C:\Users\Poostoi\RiderProjects\simple\src\Client\obj\Debug\net8.0\ref\Client.dll
+C:\Users\Poostoi\RiderProjects\simple\src\Client\obj\Debug\net8.0\Client.sourcelink.json
