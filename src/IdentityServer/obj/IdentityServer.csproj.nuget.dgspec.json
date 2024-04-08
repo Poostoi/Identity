@@ -44,13 +44,27 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Duende.IdentityServer": {
+            "Duende.IdentityServer.EntityFramework": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-preview.2.24128.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.2-dev-00338, )"
             }
           },
           "imports": [
