@@ -1,5 +1,6 @@
 ﻿using System.Net.Mime;
 using Api.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,6 +20,7 @@ public class BaseController: ControllerBase
     }
 
     [HttpGet]
+    [Authorize]
     public IActionResult Get(string row)
     {
         return Ok(_service.Print(row));
